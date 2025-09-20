@@ -1,0 +1,38 @@
+# Xcode
+#
+# Created by https://www.toptal.com/developers/gitignore/api/swift
+# Edit at https://www.toptal.com/developers/gitignore?templates=swift
+
+### Swift ###
+# Xcode
+.DS_Store
+/build
+/.build
+/Packages
+/*.xcodeproj
+xcuserdata/
+*.xcworkspace
+!default.xcworkspace
+
+# Swift Package Manager
+.package.resolved
+/SourcePackages
+
+# Cocoapods
+/Pods
+
+# Carthage
+/Carthage
+
+# fastlane
+/fastlane/report.xml
+/fastlane/screenshots
+/fastlane/test_output
+
+# End of https://www.toptal.com/developers/gitignore/api/swift
+
+# User-specific Xcode files
+*.xcuserdatad
+xcuserdata/
+project.xcworkspace/
+!project.xcworkspace/contents.xcworkspacedata
